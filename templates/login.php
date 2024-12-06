@@ -14,7 +14,7 @@ unset($_SESSION['error']);
                         <p class="display-6 fw-lighter">LOGIN</p>
                     </div>
                     <div class="col text-end">
-                        <img src="\assets\images\user-interface.png" class="img-fluid w-50" alt="Responsive image">
+                        <img src="\assets\images\user-interface.png" class="img-fluid w-50" alt="user image">
                     </div>
                 </div>
                 <hr>
@@ -32,9 +32,9 @@ unset($_SESSION['error']);
                     </div>
                 </form>
                 <?php if (!empty($erro)) : ?>
-                    <div class="alert alert-danger mt-3 p-2 text-center">
-                        <?= $erro ?>
-                    </div>
+                <div class="alert alert-danger mt-3 p-2 text-center">
+                    <?= $erro ?>
+                </div>
                 <?php endif; ?>
             </div>
         </div>
